@@ -1,0 +1,22 @@
+
+.brd {
+  border: 4px double rgb(127, 126, 126); /* Параметры границы */
+  background: rgb(223, 233, 148); /* Цвет фона */
+  padding: 4px; /* Поля вокруг текста */
+  width: 200px;
+ }
+
+.header{
+  width: 400px;
+  height: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 3px rgb(25, 183, 91);
+}
+
+.profile.img{
+  width:12px
+}
+
+.frm.submit{
+  "color:red;font-style:italic;font-size:25px;display: none;
+}
