@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Телефонная книга</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+           <img src="img/1663779008_2-phonoteka-org-p-znachok-telefona-bez-fona-oboi-2.jpg" alt="Трубка"> <h2>Add Contact</h2>
+            
+            <form id="frm" name="info" >
+               Name<br>
+               <input type="text"name="contactName" class="addContact" id="name" placeholder="" ></br></br>
+               Phone<br>
+               <input  type="tel" name="contactNo"  class="addContact" id="phone" placeholder="" ></br></br>
+                <input  type="text" name="contactfav"  class="addContact" id="favorites" placeholder="" >Favorites</br></br> 
+               <button type="submit">Создать</button>
+
+                <p style="color:red;font-style:italic;font-size:25px;display: none;">Missing Details...</p>
+            </form>
+        </br>
+
+            <table id='contacts'>
+                <tbody id="tbdy">
+                    <tr id="contInfo" >
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </main>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

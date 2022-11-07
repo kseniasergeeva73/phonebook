@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Телефонная книга</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<title>border</title>
+<body>
+    <header>
+        <h2 id="title">Телефонная книга</h2>
+        
+        <form id="headFrm">    
+            <div id="ss">                           
+        </div>
+        <div class="brd2">
+        <div class="profile"> <img src="img/1663779008_2-phonoteka-org-p-znachok-telefona-bez-fona-oboi-2.jpg"  style="width:12px"; alt="Трубка">
+            <input type="text" name="search" id="searchContact" placeholder="Поиск контактов..."required></br></br>
+            <main>
+                <form id="frm" name="info" >
+                    </br>
+                    <input type="submit" value="Добавить" id="addCont" name="go">
+                    <p style="color:red;font-style:italic;font-size:25px;display: none;">Не хватает деталей</p>
+                </form>
+            </br>
+            <div id="popup">
+
+                <p>Пример номера телефона: "+7 906 ххх ххх"</p>
+                <button type="button" id="ok">OK</button>
+            </div>
+            <div id="confirm">
+                    <p>Вы уверены, что хотите удалить этот контакт?</p>
+                    <button type="button" id="yesbtn">Да</button>
+                    <button type="button" id="nobtn">Нет</button>
+            </div>
+            <div id="existsup">
+                <p>Введенный вами номер телефона уже существует</p>
+                <button type="button" id="eok">OK</button>
+            </div>
+            </main>
+            <div class="brd2">
+        </div>
+
+
+
+    <div id="wrapper">
+        <header>
+            <div class="brd">
+                <div class="profile"> <img src="img/1663779008_2-phonoteka-org-p-znachok-telefona-bez-fona-oboi-2.jpg"  style="width:12px"; alt="Трубка"> Add Contact</br></br>
+                </div>
+            <form id="frm" name="info" >
+               Name<br>
+               <input type="text"name="contactName" class="addContact" id="name" placeholder="" ></br></br>
+               Phone<br>
+               <input  type="tel" name="contactNo"  class="addContact" id="phone" placeholder="" ></br></br>
+                <input  type="text2" name="contactfav"  class="addContact" id="favorites" placeholder="" style="width:12px">  Favorites</br></br> 
+               <button type="button">Создать</button>
+            </div>
+            </form>
+        </br>
+        <main>
+            <table id='contacts'>
+                <tbody id="tbdy">
+                    <tr id="contInfo" >
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </main>
+    </div>
+    <script src="script1.js"></script>
+    <style>
+        .brd {
+         border: 4px double rgb(127, 126, 126); /* Параметры границы */
+         background: rgb(223, 233, 148); /* Цвет фона */
+         padding: 4px; /* Поля вокруг текста */
+         width: 200px;
+         margin-right: -40px; 
+         margin-top: 20px;
+         margin-left: 20px; 
+        }
+       </style>
+        <style>
+            .brd2 {
+             border: 4px double rgb(127, 126, 126); /* Параметры границы */
+             background: rgb(232, 162, 155); /* Цвет фона */
+             padding: 4px; /* Поля вокруг текста */
+             width: 200px;
+            }
+           </style>
+</body>
+</html>
